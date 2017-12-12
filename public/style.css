@@ -1,0 +1,183 @@
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/b3/50/db/b350db88149ab6acaf18265f8413a87f.jpg");
+}
+
+.mainTable {
+    z-index: -1
+}
+
+.mainBody {
+    padding-top: 125px;
+    padding-bottom: 25px
+}
+.mainBody img {
+    height: 15vh
+}
+
+.thisFooter {
+    opacity: 0.75;
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: coral;
+    line-height: 35px
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: 110px;
+    background-color: coral;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.navbar .btn {
+    display: inline;
+    min-width: 10%;
+    text-align: center;
+    margin-right: 25px;
+    float: right
+}
+
+.navbar h3 {
+    margin-top: 5px;
+}
+
+.navImage {
+    display: inline;
+    float: left;
+    white-space: normal;
+    margin: 5px 10px 5px 5px;
+    height: 100px;
+    width: 8vw
+}
+
+.mainBody h4{
+    color: black
+}
+
+.formBottom {
+    position: fixed;
+    bottom: 55px;
+    height: 5vh;
+    width: 100vw;
+}
+
+.formName {
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkred;
+    font-size: 150%
+}
+
+.btn-success {
+    float: right;
+    top: 50px;
+    display: inline
+}
+
+.btn-primary {
+    float: left;
+}
+
+.studentBody {
+    padding-right: 45px;
+    z-index: -1;
+    padding-bottom: 15px;
+    color: darkred;
+    font-family: 'Josefin Sans', sans-serif;
+    border-style: dashed;
+    border-radius: 10%;
+    background-color: azure;
+    opacity: 0.85
+}
+
+.studentBody h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 350%;
+    margin-bottom: 25px;
+    margin-left: 7%
+}
+
+.studentBody .table {
+    width: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 200%;
+    padding-left: 10%
+}
+
+.subBody h4 {
+    z-index: -1;
+    font-size: 175%;
+    font-weight: 200
+}
+
+section.studentBody {
+    width: 75vw;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+
+.campusList {
+    margin-left: 5vw
+}
+
+div.col-xs-2 {
+    margin: 0 1% 0 1%
+}
+
+div.col-xs-2 h4 {
+    height: 50px
+}
+
+.editBody {
+    z-index: -1;
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    color: orangered;
+    font-family: 'Josefin Sans', sans-serif;
+    border-style: dotted;
+    border-radius: 10%;
+    background-color: burlywood;
+    opacity: 0.85;
+    width: 50vw;
+    position: absolute;
+    padding: 15px 5% 0 5%;
+/*
+    padding-top: 25px;
+    padding-right: 5%;
+*/
+    left: 15%;
+}
+
+.editBody h1 {
+    display: inline
+}
+
+.editBody button {
+    float: inherit;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.campusEdit {
+    border-style: dashed;
+    color: aquamarine;
+    float: right;
+    width: 15%;
+    margin-top: 150px
+}
+
+#editStudent {
+    font-size: 75%;
+    width: 65vw
+}

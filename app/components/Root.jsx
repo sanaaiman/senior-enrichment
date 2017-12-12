@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import Campus from './Campus'
 
 /* The code below does NOT relate to your project.
    This code is just a nice BIG example of how you can make a component.
@@ -118,3 +120,4 @@ A: They're both below C level!`
     ? [...all, {q: row}]
     : [...all.slice(0, all.length - 1), Object.assign({a: row}, all[all.length - 1])],
     [])
+
